@@ -11,6 +11,19 @@ public class Bok {
         this.isAvailable = true;
     }
 
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+
     public Boolean getAvailable() {
         return isAvailable;
     }
@@ -18,4 +31,8 @@ public class Bok {
     public void setAvailable(Boolean available) {
         isAvailable = available;
     }
+
+    //public void moreInfo(Bok book){
+      //  System.out.println("Title: " + title + "\nAuthor: " + author + "\nDescription: " + description);
+    //}
 }
