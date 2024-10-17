@@ -1,12 +1,14 @@
 import java.util.HashMap;
 import java.util.Map;
 
+//Ärver User
 public class Librarian extends User{
     Map<Integer, Bok> allBooks;
     Map<Integer, Customer> customers;
     int booksIndex = 1;
     int customerIndex = 1;
 
+    //Kontruktor
     public Librarian(String name, String password) {
         super(name, password);
         this.allBooks = new HashMap<>();
